@@ -1,11 +1,12 @@
 import React from 'react';
 import { Provider } from 'react-redux';
 import store from './store';
-import PlanetSelectionContainer from './PlanetSelectionContainer';
-import VehicleSelectionContainer from './VehicleSelectionContainer';
-import ResultContainer from './ResultContainer';
+import PlanetSelectionContainer from './container/PlanetSelectionContainer';
+import VehicleSelectionContainer from './container/VehicleSelectionContainer';
+import ResultContainer from './container/ResultContainer';
 
 function App() {
+  console.log("Hello")
   return (
     <Provider store={store}>
       <div>
